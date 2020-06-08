@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.30114.128
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorN", "BlazorN\BlazorN.csproj", "{78A9A646-3D8D-4B79-96D5-5E31550BB89D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorN.Demo.Server", "BlazorN.Demo\Server\BlazorN.Demo.Server.csproj", "{FEC56A86-7A27-4F60-BF68-B4AAF7F5FA6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorN.Demo.Server", "BlazorN.Demo\Server\BlazorN.Demo.Server.csproj", "{FEC56A86-7A27-4F60-BF68-B4AAF7F5FA6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorN.Demo.Client", "BlazorN.Demo\Client\BlazorN.Demo.Client.csproj", "{1A12C2ED-73CF-4732-9946-971E2327E959}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorN.Demo.Client", "BlazorN.Demo\Client\BlazorN.Demo.Client.csproj", "{1A12C2ED-73CF-4732-9946-971E2327E959}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorN.Demo.Shared", "BlazorN.Demo\Shared\BlazorN.Demo.Shared.csproj", "{25662916-A8CA-4B59-8BB1-03718968FD4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorN.Demo.Shared", "BlazorN.Demo\Shared\BlazorN.Demo.Shared.csproj", "{25662916-A8CA-4B59-8BB1-03718968FD4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

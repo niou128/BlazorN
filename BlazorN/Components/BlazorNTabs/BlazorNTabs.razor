@@ -1,5 +1,14 @@
 ﻿@inherits BlazorNTabsBase
 @namespace BlazorN
+<!-- Display the tab headers -->
+<CascadingValue Value=this>
+    <ul class="nav nav-tabs">
+        @ChildContent
+    </ul>
+</CascadingValue>
 
-<h3>BlazorNTabs</h3>
+<!-- Display body for only the active tab -->
+<div class="nav-tabs-body p-4">
+    @ActiveTab?.ChildContent
+</div>
 
